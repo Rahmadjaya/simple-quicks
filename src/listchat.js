@@ -77,7 +77,7 @@ const ListChat = () => {
     return (
         <div className="list-chats">
             <div className="item-chats">
-                <div className="display-chat">
+                <div className="profile-chat">
                     <div className="group-chat group-chat-1">
                         <img src="schedule_24px_outlined-12.svg" alt=""></img>
                     </div>
@@ -85,7 +85,7 @@ const ListChat = () => {
                         <img src="schedule_24px_outlined-12.svg" alt=""></img>
                     </div>
                 </div>
-                <div className="chat">
+                <div className="display-chat">
                     <div className="header">
                         <div className="name"> Nama messager</div>
                         <div className="date">01/08/2022 19:00</div>
@@ -101,12 +101,12 @@ const ListChat = () => {
                 </div>
             </div>
             <div className="item-chats">
-                <div className="display-chat">
+                <div className="profile-chat">
                     <div className="group-chat group-chat-2">
                         <img src="schedule_24px_outlined-12.svg" alt=""></img>
                     </div>
                 </div>
-                <div className="chat">
+                <div className="display-chat">
                     <div className="header">
                         <div className="name"> Nama messager</div>
                         <div className="date">01/08/2022 19:00</div>
