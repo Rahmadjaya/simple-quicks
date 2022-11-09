@@ -1,0 +1,319 @@
+{ 
+    "listchat" : [
+        {
+            "id": 1,
+            "role": "group",
+            "url": "chat",
+            "name": "Development-001",
+            "date": "01/10/2022 12:55",
+            "newMassager": "Aero",
+            "newMassage": "work correctly both with client-side routing and a non-root public URL",
+            "notif": true,
+            "icon": "group",
+            "participant": 4,
+            "chat": [
+                {
+                    "id": 1,
+                    "nameMassanger": "Aero",
+                    "color": "1",
+                    "datetime": "13.01",
+                    "Massage": "Lorem ipsum dolor sit amet consectetur adipisicing elit"
+                },
+                {
+                    "id": 2,
+                    "nameMassanger": "Faizz",
+                    "color": "2",
+                    "datetime": "13.02",
+                    "Massage": "Unde ad sapiente iure ratione rem mollitia numquam"
+                },
+                {
+                    "id": 3,
+                    "nameMassanger": "You",
+                    "color":"",
+                    "datetime": "13.02",
+                    "Massage": "Yes"
+                },
+                {
+                    "id": 4,
+                    "nameMassanger": "Faizz",
+                    "color": "2",
+                    "datetime": "13.03",
+                    "Massage": "officia veritatis nostrum hic"
+                },
+                {
+                    "id": 5,
+                    "nameMassanger": "You",
+                    "color":"",
+                    "datetime": "13.04",
+                    "Massage": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates perspiciatis quod vero ea magnam adipisci?"
+                },
+                {
+                    "id": 6,
+                    "nameMassanger": "Aero",
+                    "color": "1",
+                    "datetime": "13.04",
+                    "Massage": "adipisicing elit"
+                },
+                {
+                    "id": 7,
+                    "nameMassanger": "Aero",
+                    "color": "1",
+                    "datetime": "13.05",
+                    "Massage": "Lorem ipsum"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "role": "group",
+            "url": "chat",
+            "name": "Maintenance website chat #003",
+            "date": "01/10/2022 12:55",
+            "newMassager": "Yooloo",
+            "newMassage": "routing and a non-root public URL",
+            "notif": false,
+            "icon": "group",
+            "participant": 4,
+            "chat": [
+                {
+                    "id": 1,
+                    "nameMassanger": "Yooloo",
+                    "color": "1",
+                    "datetime": "13.01",
+                    "Massage": "Lorem ipsum dolor sit amet consectetur adipisicing elit"
+                },
+                {
+                    "id": 2,
+                    "nameMassanger": "Gigant",
+                    "color": "2",
+                    "datetime": "13.01",
+                    "Massage": "Lorem ipsum dolor sit amet consectetur adipisicing elit"
+                },
+                {
+                    "id": 3,
+                    "nameMassanger": "Miya",
+                    "color": "3",
+                    "datetime": "13.02",
+                    "Massage": "Unde ad sapiente iure ratione rem mollitia numquam"
+                },
+                {
+                    "id": 4,
+                    "nameMassanger": "You",
+                    "color":"",
+                    "datetime": "13.02",
+                    "Massage": "Yes"
+                },
+                {
+                    "id": 5,
+                    "nameMassanger": "Miya",
+                    "color": "3",
+                    "datetime": "13.03",
+                    "Massage": "officia veritatis nostrum hic"
+                },
+                {
+                    "id": 6,
+                    "nameMassanger": "You",
+                    "color":"",
+                    "datetime": "13.04",
+                    "Massage": "Thanks you"
+              },
+                {
+                    "id": 7,
+                    "nameMassanger": "Yooloo",
+                    "color": "1",
+                    "datetime": "13.04",
+                    "Massage": "adipisicing elit"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "role": "private",
+            "url": "privatechat",
+            "name": "Role Support",
+            "date": "01/10/2022 18:55",
+            "newMassager": "Kala",
+            "newMassage": "routing and a non-root public URL",
+            "notif": false,
+            "icon": "private",
+            "participant": 1,
+            "chat": [
+                {
+                    "id": 1,
+                    "nameMassanger": "Kala",
+                    "color": "1",
+                    "datetime": "13.01",
+                    "Massage": "Lorem ipsum dolor sit amet consectetur adipisicing elit"
+                },
+                {
+                    "id": 2,
+                    "nameMassanger": "You",
+                    "color":"",
+                    "datetime": "13.01",
+                    "Massage": "Lorem ipsum dolor sit amet consectetur adipisicing elit"
+                },
+                {
+                    "id": 3,
+                    "nameMassanger": "Kala",
+                    "color": "1",
+                    "datetime": "13.02",
+                    "Massage": "Unde ad sapiente iure ratione rem mollitia numquam"
+                },
+                {
+                    "id": 4,
+                    "nameMassanger": "You",
+                    "color":"",
+                    "datetime": "13.02",
+                    "Massage": "Yes"
+                },
+                {
+                    "id": 5,
+                    "nameMassanger": "Kala",
+                    "color": "1",
+                    "datetime": "13.03",
+                    "Massage": "officia veritatis nostrum hic"
+                },
+                {
+                    "id": 6,
+                    "nameMassanger": "Kala",
+                    "color": "1",
+                    "datetime": "13.04",
+                    "Massage": "Thanks you"
+                },
+                {
+                    "id": 7,
+                    "nameMassanger": "You",
+                    "color":"",
+                    "datetime": "13.04",
+                    "Massage": "adipisicing elit"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "role": "private",
+            "url": "privatechat",
+            "name": "Role Support",
+            "date": "01/10/2022 18:55",
+            "newMassager": "Wenyy",
+            "newMassage": "routing and a non-root public URL",
+            "notif": true,
+            "icon": "private",
+            "participant": 1,
+            "chat": [
+                {
+                    "id": 1,
+                    "nameMassanger": "Wenyy",
+                    "color": "1",
+                    "datetime": "13.01",
+                    "Massage": "Lorem ipsum dolor sit amet consectetur adipisicing elit"
+                },
+                {
+                    "id": 2,
+                    "nameMassanger": "You",
+                    "color":"",
+                    "datetime": "13.01",
+                    "Massage": "Lorem ipsum dolor sit amet consectetur adipisicing elit"
+                },
+                {
+                    "id": 3,
+                    "nameMassanger": "Wenyy",
+                    "color": "1",
+                    "datetime": "13.02",
+                    "Massage": "Unde ad sapiente iure ratione rem mollitia numquam"
+                },
+                {
+                    "id": 4,
+                    "nameMassanger": "You",
+                    "color":"",
+                    "datetime": "13.02",
+                    "Massage": "Yes"
+                },
+                {
+                    "id": 5,
+                    "nameMassanger": "Wenyy",
+                    "color": "1",
+                    "datetime": "13.03",
+                    "Massage": "officia veritatis nostrum hic"
+                },
+                {
+                    "id": 6,
+                    "nameMassanger": "Wenyy",
+                    "color": "1",
+                    "datetime": "13.04",
+                    "Massage": "Thanks you"
+                },
+                {
+                    "id": 7,
+                    "nameMassanger": "You",
+                    "color":"",
+                    "datetime": "13.04",
+                    "Massage": "adipisicing elit"
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "role": "private",
+            "url": "privatechat",
+            "name": "Darling",
+            "date": "01/10/2022 18:55",
+            "newMassager": "",
+            "newMassage": "Welcome to the your inbox",
+            "notif": true,
+            "icon": "private",
+            "participant": 1,
+            "chat": [
+                {
+                    "id": 1,
+                    "nameMassanger": "Darling",
+                    "color": "1",
+                    "datetime": "13.01",
+                    "Massage": "Lorem ipsum dolor sit amet consectetur adipisicing elit"
+                },
+                {
+                    "id": 2,
+                    "nameMassanger": "You",
+                    "color":"",
+                    "datetime": "13.01",
+                    "Massage": "Lorem ipsum dolor sit amet consectetur adipisicing elit"
+                },
+                {
+                    "id": 3,
+                    "nameMassanger": "Darling",
+                    "color": "1",
+                    "datetime": "13.02",
+                    "Massage": "Unde ad sapiente iure ratione rem mollitia numquam"
+                },
+                {
+                    "id": 4,
+                    "nameMassanger": "You",
+                    "color":"",
+                    "datetime": "13.02",
+                    "Massage": "Yes"
+                },
+                {
+                    "id": 5,
+                    "nameMassanger": "Darling",
+                    "color": "1",
+                    "datetime": "13.03",
+                    "Massage": "officia veritatis nostrum hic"
+                },
+                {
+                    "id": 6,
+                    "nameMassanger": "Darling",
+                    "color": "1",
+                    "datetime": "13.04",
+                    "Massage": "Thanks you"
+                },
+                {
+                    "id": 7,
+                    "nameMassanger": "You",
+                    "color":"",
+                    "datetime": "13.04",
+                    "Massage": "adipisicing elit"
+                }
+            ]
+        }
+    ]
+}

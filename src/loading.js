@@ -1,29 +1,18 @@
-import { useState, useEffect } from "react";
 import  ListChat  from "./listchat";
 
-const Loadings = () => {
-    const [loading, setLoading] = useState(false);
-
-    useEffect(() => {
-        fetchData();
-    }, []);
-
-    const fetchData = () => {
-
-        // setLoading(false);
-    }
+const Loadings = (props) => {
     const Loading = () => {
-        if(loading === true){
+        if(props.dataloading === true){
             return (
                 <div className="loading">
-                    <img src="schedule_24px_outlined-12.svg" className="spin-loading" alt=""></img>
+                    <img src="loading.png" className="spin-loading" alt=""></img>
                     <p>Loading Chats...</p>
                 </div>
             )
         } else {
             return (
-                <div>
-                    <ListChat />
+                <div className="content-listchat">
+                    <ListChat datalist={props.datalistchat}/>
                 </div>
             )
         }
