@@ -1,11 +1,11 @@
 import { Link} from "react-router-dom";
 
  
-const ListChat = (props) => {
+const InboxList = (props) => {
     return (
         <div className="list-chats">
             {props.datalist.map((data, i) => (
-                <Link className="item-chats" key={data.id} to={`${data.url}?id=${data.id}`}>
+                <Link className="item-chats" key={data.id} to={`/${data.url}?id=${data.id}`}>
                     {data.role === "group" && 
                         <div className="profile-chat">
                             <div className="group-chat group-chat-1">
@@ -48,4 +48,4 @@ const ListChat = (props) => {
     )
 }
  
-export default ListChat;
+export default InboxList;

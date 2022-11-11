@@ -3,7 +3,7 @@
         {
             "id": 1,
             "role": "group",
-            "url": "chat",
+            "url": "inboxgroup",
             "name": "Development-001",
             "date": "01/10/2022 12:55",
             "newMassager": "Aero",
@@ -66,7 +66,7 @@
         {
             "id": 2,
             "role": "group",
-            "url": "chat",
+            "url": "inboxgroup",
             "name": "Maintenance website chat #003",
             "date": "01/10/2022 12:55",
             "newMassager": "Yooloo",
@@ -129,7 +129,7 @@
         {
             "id": 3,
             "role": "private",
-            "url": "privatechat",
+            "url": "inboxprivate",
             "name": "Role Support",
             "date": "01/10/2022 18:55",
             "newMassager": "Kala",
@@ -192,7 +192,7 @@
         {
             "id": 4,
             "role": "private",
-            "url": "privatechat",
+            "url": "inboxprivate",
             "name": "Role Support",
             "date": "01/10/2022 18:55",
             "newMassager": "Wenyy",
@@ -255,7 +255,7 @@
         {
             "id": 5,
             "role": "private",
-            "url": "privatechat",
+            "url": "inboxprivate",
             "name": "Darling",
             "date": "01/10/2022 18:55",
             "newMassager": "",

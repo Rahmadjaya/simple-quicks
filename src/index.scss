@@ -34,7 +34,7 @@ body {
   transform: translate(-50%, -50%);
   .content{
     background: white;
-    padding: 15px;
+    padding: 15px 15px 0 15px;
     min-height: 80vh;
     .search{
       position: relative;
@@ -88,7 +88,7 @@ body {
 .content-listchat{
   overflow: scroll;
   overflow-x: hidden;
-  height: 70vh;
+  height: 71vh;
   padding-right: 2px;
   padding-top: 10px;
   margin-top: 5px;
@@ -435,8 +435,10 @@ body {
 }
 
 .footer{
-  float: right;
   padding: 10px 0;
+  position: fixed;
+  right: 0;
+  bottom: -20px;
   .chrome-reader-mode{
     background: #F2F2F2;
     width: 60px;
@@ -474,9 +476,120 @@ body {
     .ellipse-2{
       background: #8785FF;
     }
+    .ellipse-tasks{
+      background: #F8B76B;
+    }
   }
 }
 .d-flex{
   display: flex;
   flex-wrap: nowrap;
+}
+
+.header-tasks{
+  background-color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 15px;
+  .dropdown{
+    width: 50%;
+    position: relative;
+    .label-dropdown{
+      padding: 10px;
+      display: inline-block;
+      border: 1px solid #a1a1a1;
+      border-radius: 5px;
+      min-width: 120px;
+      cursor: default;
+      span{
+        float: right;
+      }
+    }
+    .list-dropdown{
+      display: none;
+      border: 1px solid #a1a1a1;
+      border-radius: 5px;
+      border-bottom: none;
+      margin-top: 5px;
+      background-color: white;
+      position: absolute;
+      bottom: -85px;
+      left: 0;
+      .item-dropdown{
+        padding: 10px;
+        border-bottom: 1px solid #a1a1a1;
+      }
+    }
+  }
+  .new-tasks{
+    width: 50%;
+    text-align: right;
+    button{
+      padding: 12px;
+      color: white;
+      background: #2f80ed;
+      margin-left: 5px;
+      border: none;
+      border-radius: 5px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+  }
+}
+.content-tasks{
+  overflow: scroll;
+  overflow-x: hidden;
+  height: 71vh;
+  padding-right: 2px;
+  padding-top: 10px;
+  margin-top: 45px;
+  .label-tasks{
+    border-bottom: 2px solid #c0c0c0;
+    padding: 15px 0;
+    label{
+      font-weight: bold;
+      display: flex;
+      align-items: flex-start;
+      width: 60%;
+      margin-bottom: 10px;
+      span{
+        margin-left: 10px;
+      }
+    }
+    .date{
+      width: 40%;
+      font-size: 13px;
+      div{
+        display: inline-block;
+        padding-right: 5px;
+      }
+      .expdate{
+        color: #eb5757;
+      }
+      img{
+        margin: 0 3px;
+        cursor: pointer;
+      }
+    }
+    .description-date, .description{
+      padding-left: 30px;
+      margin-bottom: 10px;
+      img, input, div{
+        margin-right: 10px;
+        display: inline-block;
+      }
+      input{
+        padding: 10px;
+        border: 1px solid #828282;
+        border-radius: 5px;
+        min-width: 180px;
+      }
+    }
+    .description{
+      display: flex;
+      align-items: flex-start;
+    }
+  }
 }

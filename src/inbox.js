@@ -1,7 +1,8 @@
 import  Loadings  from "./loading";
+import  FooterInbox  from "./footerinbox";
 import { useState, useEffect } from "react";
 
-function App() {
+function Inbox() {
   const [datalist, setDataList] = useState([]);
   const [datalistfirst, setDataListFirst] = useState([]);
   const [search, setTextSearch] = useState('');
@@ -32,7 +33,7 @@ function App() {
   }
 
   return (
-    <div>
+    <>
       <form className="search">
         <input placeholder="Search" value={search} onChange={(e) => TextSearch(e)} />
         <span>
@@ -40,8 +41,9 @@ function App() {
         </span>
       </form>
       <Loadings datalistchat={datalist} dataloading={loading}/>
-    </div>
+      <FooterInbox />
+    </>
   );
 }
 
-export default App;
+export default Inbox;

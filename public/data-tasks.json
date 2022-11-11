@@ -1,0 +1,42 @@
+[
+    {
+        "id":1,
+        "name":"Close of case #098XS",
+        "expdate": 3,
+        "date": "12/11/2022",
+        "check": false,
+        "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore voluptatum accusantium quasi laborum velit aliquam quo cum aut veritatis quia."
+    },
+    {
+        "id":2,
+        "name":"Close me closet, Malaga",
+        "expdate": 10,
+        "date": "12/12/2022",
+        "check": true,
+        "description": "No description"
+    },
+    {
+        "id":3,
+        "name":"Close me closet, Malaga",
+        "expdate": 1,
+        "date": "25/12/2022",
+        "check": true,
+        "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. "
+    },
+    {
+        "id":3,
+        "name":"Rencana ke Makkah #29",
+        "expdate": 1,
+        "date": "25/12/2022",
+        "check": false,
+        "description": "No description"
+    },
+    {
+        "id":4,
+        "name":"Gethering together chapter surabaya",
+        "expdate": 1,
+        "date": "29/12/2022",
+        "check": false,
+        "description": "Inventore voluptatum accusantium quasi laborum velit"
+    }
+]

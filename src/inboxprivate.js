@@ -1,12 +1,13 @@
 import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
+import  FooterInbox  from "./footerinbox";
 
 
-const Chat = () => {
+const InboxPrivate = () => {
     const [nameChat, setNameChats] = useState('');
-    const [participantChat, setParticipantsChats] = useState('');
     const [dateChat, setDateChats] = useState('');
     const [chats, setChats] = useState([]);
+    const [loading, setLoading] = useState(true);
     const [inputchat, setInputChat] = useState('');
 
     let history = useNavigate();
@@ -22,12 +23,15 @@ const Chat = () => {
         const response = await fetch('data-quicks.json');
         const data = await response.json();
         const dataid = data.listchat.filter((e) => {
-            return e.id === Number(id) && e.role === "group";
+            return e.id === Number(id) && e.role === "private";
         })
         setNameChats(dataid[0].name);
-        setParticipantsChats(dataid[0].participant);
         setDateChats(dataid[0].date);
         setChats(dataid[0].chat);
+
+        setTimeout(function() {
+            setLoading(false);
+        }, 3000);
     }
 
     const  clickOption = (id) => {
@@ -49,14 +53,13 @@ const Chat = () => {
     }
     
     return (
-        <div className="chat">
+        <div className="chat private-chat">
             <div className="header-chat">
                 <button className="back-chat"  onClick={() => history(-1)}>
                     <img src="arrow_back_24px.png" alt=""></img>
                 </button>
                 <div className="title-chat">
                     <div className="name-chat">{nameChat}</div>
-                    <div className="participants">{participantChat} participant</div>
                 </div>
                 <button className="back-chat"  onClick={() => history(-1)}>
                     <img src="close_24px.png" alt=""></img>
@@ -107,13 +110,23 @@ const Chat = () => {
                     </div>
                 </div>
             </div>
+            {loading === true && 
+                <div className="notif-loading-chat">
+                    <div className="loading-chat">
+                        <div className="spin-loading-chat">
+                            <img className="icon-spin-loading" src="schedule_24px_outlined-12.svg" alt=""></img>
+                        </div>
+                        <p>Place wait while we connect you with one our team...</p>
+                    </div>
+                </div>
+            }
             <form className="footer-chat" onSubmit={saveSubmit}>
                 <input className="input" placeholder="Type a new message" value={inputchat} onChange={(e) => setInputChat(e.target.value)}/>
                 <button type="submit">Send</button>
             </form>
-
+            <FooterInbox />
         </div>
     )
 }
  
-export default Chat;
+export default InboxPrivate;
